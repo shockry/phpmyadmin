@@ -1,9 +1,10 @@
 phpMyAdmin
 ==========
 
-A web interface for MySQL and MariaDB.
-
-https://www.phpmyadmin.net/
+The aim of this repo is to add support for adding a common prefix for column names in "add columns" and table design forms.
+This feature request was kinda rejected (see https://github.com/phpmyadmin/phpmyadmin/issues/12312).
+So I made this fork to use this feature.
+All changes are currently on branch "column-name-prefix".
 
 Code status
 -----------
