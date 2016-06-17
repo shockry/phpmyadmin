@@ -29,7 +29,8 @@ if (empty($title)) {
        class="textfield"
        title="<?= $title; ?>"
        size="10"
-       value="<?= isset($columnMeta['Field'])? htmlspecialchars($columnMeta['Field']) : '' ?>" />
+       value="<?= isset($columnMeta['Field'])? htmlspecialchars($columnMeta['Field']) : 
+       (isset($_REQUEST['column_prefix'])? htmlspecialchars($_REQUEST['column_prefix']): '') ?>" />
 
 <?php if ($cfgRelation['centralcolumnswork']
     && !(isset($columnMeta['column_status'])

@@ -22,5 +22,8 @@
             </option>
         <?php endforeach; ?>
     </select>
+    <label for="column_prefix"> <?= __('With prefix') ?> </label>
+    <input type="text" name="column_prefix" onfocus="this.select()">
+
     <input type="submit" value="<?= __('Go'); ?>" />
 </form>
